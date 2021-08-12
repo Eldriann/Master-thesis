@@ -1,0 +1,33 @@
+Yesterday
+Last __NUM__ days
+The past __NUM__ days
+The day before yesterday
+Last week
+Last month
+Last year
+On the week-end
+Last couple of days
+Last couple of week
+yesterday
+__NUM__ hours ago
+__NUM__ days ago
+__NUM__ weeks ago
+__NUM__ months ago
+__NUM__ years ago
+last week
+last month
+last year
+last decade
+last century
+earlier today
+earlier this week
+earlier this month
+back at the time
+in __NUM__
+in march __NUM__
+in april __NUM__
+the day before yesterday
+the other day
+in the past
+a long time ago
+since that day

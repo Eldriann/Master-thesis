@@ -1,0 +1,19 @@
+Can you tell me about __SUBJECT__ in __TIME__ ?
+What about __SUBJECT__ __TIME__ ?
+Can you give me the information from __TIME__ about __SUBJECT__ ?
+I need information on __SUBJECT__ from __TIME__
+May you show me the update from __TIME__ on __SUBJECT__ ?
+Can you give me news from __TIME__ about __SUBJECT__ ?
+Can you recover information about __SUBJECT__ that appeared __TIME__ ?
+I need information about __SUBJECT__ from __TIME__
+I would like information on __SUBJECT__ since __TIME__
+May I get information on __SUBJECT__ from __TIME__ ?
+Is __SUBJECT__ since __TIME__ ?
+Was __SUBJECT__ __TIME__ ?
+Has __SUBJECT__ __TIME__?
+Is __SUBJECT__ ?
+What was the news about __SUBJECT__ __TIME__?
+How did the __SUBJECT__ evolve __TIME__?
+Was __SUBJECT__ increasing __TIME__?
+Can I have news about __SUBJECT__ ?
+What about __SUBJECT__ ?

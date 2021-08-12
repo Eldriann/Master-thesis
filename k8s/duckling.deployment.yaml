@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: duckling
+  namespace: heriot-watt-julian
+  labels:
+    app: duckling
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: duckling
+  template:
+    metadata:
+      labels:
+        app: duckling
+    spec:
+      containers:
+      - name: duckling
+        image: eldriann/duckling
+        ports:
+        - containerPort: 8000

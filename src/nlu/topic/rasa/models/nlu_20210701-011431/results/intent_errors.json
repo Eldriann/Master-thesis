@@ -1,0 +1,10 @@
+[
+  {
+    "text": "How do I use the bot ?",
+    "intent": "help",
+    "intent_prediction": {
+      "name": "retrieve_news",
+      "confidence": 1.0
+    }
+  }
+]

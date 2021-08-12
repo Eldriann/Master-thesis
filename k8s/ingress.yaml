@@ -1,0 +1,23 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: ducklingingress
+  namespace: heriot-watt-julian
+  annotations:
+    kubernetes.io/ingress.class: "nginx"
+    cert-manager.io/cluster-issuer: "letsencrypt-prod"
+    cert-manager.io/acme-challenge-type: http01
+    nginx.ingress.kubernetes.io/proxy-body-size: "512m"
+spec:
+  tls:
+  - hosts:
+    - duckling.b12powered.com
+    secretName: duckling-b12powered-tls-prod
+  rules:
+  - host: duckling.b12powered.com
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: ducklingsvc
+          servicePort: 8000

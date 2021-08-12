@@ -1,0 +1,28 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-temporal",
+      "2": "I-temporal",
+      "3": "L-temporal",
+      "4": "U-temporal",
+      "5": "B-topic",
+      "6": "I-topic",
+      "7": "L-topic",
+      "8": "U-topic",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-temporal": 1,
+      "I-temporal": 2,
+      "L-temporal": 3,
+      "U-temporal": 4,
+      "B-topic": 5,
+      "I-topic": 6,
+      "L-topic": 7,
+      "U-topic": 8,
+      "O": 0
+    },
+    "num_tags": 9
+  }
+]

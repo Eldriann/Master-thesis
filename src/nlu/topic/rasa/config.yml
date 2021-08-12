@@ -1,0 +1,53 @@
+# Configuration for Rasa NLU.
+# https://rasa.com/docs/rasa/nlu/components/
+
+pipeline:
+  - name: "SpacyNLP"
+    # language model to load
+    model: "en_core_web_md"
+    # when retrieving word vectors, this will decide if the casing
+    # of the word is relevant. E.g. `hello` and `Hello` will
+    # retrieve the same vector, if set to `False`. For some
+    # applications and models it makes sense to differentiate
+    # between these two words, therefore setting this to `True`.
+    case_sensitive: False
+  - name: "SpacyTokenizer"
+    # Flag to check whether to split intents
+    "intent_tokenization_flag": False
+    # Symbol on which intent should be split
+    "intent_split_symbol": "_"
+    # Regular expression to detect tokens
+    "token_pattern": None
+  - name: "SpacyFeaturizer"
+    # Specify what pooling operation should be used to calculate the vector of
+    # the complete utterance. Available options: 'mean' and 'max'.
+    "pooling": "mean"
+  - name: "RegexFeaturizer"
+    # Text will be processed with case sensitive as default
+    "case_sensitive": True
+    # use match word boundaries for lookup table
+    "use_word_boundaries": True
+  - name: "LexicalSyntacticFeaturizer"
+  - name: "CountVectorsFeaturizer"
+    # Analyzer to use, either 'word', 'char', or 'char_wb'
+    "analyzer": "char_wb"
+    # Set the lower and upper boundaries for the n-grams
+    "min_ngram": 1
+    "max_ngram": 4
+    # Set the out-of-vocabulary token
+    "OOV_token": "_oov_"
+    # Whether to use a shared vocab
+    "use_shared_vocab": False
+  - name: "DIETClassifier"
+    constrain_similarities: True
+    model_confidence: "linear_norm"
+    epochs: 300
+  - name: "EntitySynonymMapper"
+  - name: "ResponseSelector"
+    constrain_similarities: True
+    model_confidence: "linear_norm"
+    epochs: 300
+  - name: "FallbackClassifier"
+    threshold: 0.3
+    ambiguity_threshold: 0.1
+

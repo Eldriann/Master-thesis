@@ -1,0 +1,34 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: botc
+  namespace: heriot-watt-julian
+  labels:
+    app: botc
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: botc
+  template:
+    metadata:
+      labels:
+        app: botc
+    spec:
+      volumes:
+      - name: logs
+        hostPath:
+          path: /XXX/heriot-watt-julian/volumes/botc
+          type: Directory
+      containers:
+      - name: botc
+        image: jf2009bot:v2
+        imagePullPolicy: Never
+        command: ["python"]
+        args: ["src/main.py"]
+        envFrom:
+        - secretRef:
+            name: botcenv
+        volumeMounts:
+        - name: logs
+          mountPath: /app/logs

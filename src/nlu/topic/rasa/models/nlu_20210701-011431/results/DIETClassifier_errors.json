@@ -1,0 +1,1257 @@
+[
+  {
+    "text": "Can you tell me about The Last Days on Mars in 6 weeks ago ?",
+    "entities": [
+      {
+        "start": 22,
+        "end": 43,
+        "value": "The Last Days on Mars",
+        "entity": "topic"
+      },
+      {
+        "start": 47,
+        "end": 58,
+        "value": "6 weeks ago",
+        "entity": "temporal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic",
+        "start": 22,
+        "end": 35,
+        "confidence_entity": 0.958158552646637,
+        "value": "The Last Days",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "topic",
+        "start": 39,
+        "end": 43,
+        "confidence_entity": 0.9871925115585327,
+        "value": "Mars",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "temporal",
+        "start": 47,
+        "end": 58,
+        "confidence_entity": 0.9999905824661255,
+        "value": "6 weeks ago",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Can you tell me about A life in in 4 days ago ?",
+    "entities": [
+      {
+        "start": 22,
+        "end": 31,
+        "value": "A life in",
+        "entity": "topic"
+      },
+      {
+        "start": 35,
+        "end": 45,
+        "value": "4 days ago",
+        "entity": "temporal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic",
+        "start": 22,
+        "end": 28,
+        "confidence_entity": 0.9980023503303528,
+        "value": "A life",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "temporal",
+        "start": 35,
+        "end": 45,
+        "confidence_entity": 0.9999977350234985,
+        "value": "4 days ago",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Was How to get ahead in in november ?",
+    "entities": [
+      {
+        "start": 4,
+        "end": 23,
+        "value": "How to get ahead in",
+        "entity": "topic"
+      },
+      {
+        "start": 24,
+        "end": 35,
+        "value": "in november",
+        "entity": "temporal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic",
+        "start": 4,
+        "end": 20,
+        "confidence_entity": 0.9980654120445251,
+        "value": "How to get ahead",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "temporal",
+        "start": 24,
+        "end": 35,
+        "confidence_entity": 0.9999933242797852,
+        "value": "in november",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Can you tell me about Intergenerational Foundation young film-makers' short film winners in in march ?",
+    "entities": [
+      {
+        "start": 22,
+        "end": 88,
+        "value": "Intergenerational Foundation young film-makers' short film winners",
+        "entity": "topic"
+      },
+      {
+        "start": 92,
+        "end": 100,
+        "value": "in march",
+        "entity": "temporal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic",
+        "start": 22,
+        "end": 88,
+        "confidence_entity": 0.9458110332489014,
+        "value": "Intergenerational Foundation young film-makers' short film winners",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "temporal",
+        "start": 95,
+        "end": 100,
+        "confidence_entity": 0.9999996423721313,
+        "value": "march",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Was The book I bought today earlier this week ?",
+    "entities": [
+      {
+        "start": 4,
+        "end": 27,
+        "value": "The book I bought today",
+        "entity": "topic"
+      },
+      {
+        "start": 28,
+        "end": 45,
+        "value": "earlier this week",
+        "entity": "temporal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic",
+        "start": 4,
+        "end": 21,
+        "confidence_entity": 0.9685037136077881,
+        "value": "The book I bought",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "temporal",
+        "start": 28,
+        "end": 45,
+        "confidence_entity": 0.9999978542327881,
+        "value": "earlier this week",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Can you tell me about This land is your land: about this series in weekend ?",
+    "entities": [
+      {
+        "start": 22,
+        "end": 63,
+        "value": "This land is your land: about this series",
+        "entity": "topic"
+      },
+      {
+        "start": 67,
+        "end": 74,
+        "value": "weekend",
+        "entity": "temporal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic",
+        "start": 22,
+        "end": 63,
+        "confidence_entity": 0.5817097425460815,
+        "value": "This land is your land: about this series",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "topic",
+        "start": 67,
+        "end": 74,
+        "confidence_entity": 0.9740421772003174,
+        "value": "weekend",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Can you tell me about World Cup 2010: a letter from in the other day ?",
+    "entities": [
+      {
+        "start": 22,
+        "end": 51,
+        "value": "World Cup 2010: a letter from",
+        "entity": "topic"
+      },
+      {
+        "start": 55,
+        "end": 68,
+        "value": "the other day",
+        "entity": "temporal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic",
+        "start": 22,
+        "end": 46,
+        "confidence_entity": 0.9984669089317322,
+        "value": "World Cup 2010: a letter",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "temporal",
+        "start": 55,
+        "end": 68,
+        "confidence_entity": 0.9999959468841553,
+        "value": "the other day",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "How do I use the bot ?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "topic",
+        "start": 13,
+        "end": 20,
+        "confidence_entity": 0.7726098895072937,
+        "value": "the bot",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I would like information on A postcard from since yesterday",
+    "entities": [
+      {
+        "start": 28,
+        "end": 43,
+        "value": "A postcard from",
+        "entity": "topic"
+      },
+      {
+        "start": 50,
+        "end": 59,
+        "value": "yesterday",
+        "entity": "temporal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic",
+        "start": 28,
+        "end": 38,
+        "confidence_entity": 0.9997079968452454,
+        "value": "A postcard",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "temporal",
+        "start": 50,
+        "end": 59,
+        "confidence_entity": 0.9999971389770508,
+        "value": "yesterday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Has Elections past in june?",
+    "entities": [
+      {
+        "start": 4,
+        "end": 18,
+        "value": "Elections past",
+        "entity": "topic"
+      },
+      {
+        "start": 19,
+        "end": 26,
+        "value": "in june",
+        "entity": "temporal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic",
+        "start": 4,
+        "end": 13,
+        "confidence_entity": 0.9999903440475464,
+        "value": "Elections",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "temporal",
+        "start": 14,
+        "end": 18,
+        "confidence_entity": 0.9990148544311523,
+        "value": "past",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "temporal",
+        "start": 19,
+        "end": 26,
+        "confidence_entity": 0.9896486401557922,
+        "value": "in june",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "What about Elvis: 25 years on on the weekend ?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 29,
+        "value": "Elvis: 25 years on",
+        "entity": "topic"
+      },
+      {
+        "start": 30,
+        "end": 44,
+        "value": "on the weekend",
+        "entity": "temporal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic",
+        "start": 11,
+        "end": 26,
+        "confidence_entity": 0.6003552079200745,
+        "value": "Elvis: 25 years",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "temporal",
+        "start": 27,
+        "end": 29,
+        "confidence_entity": 0.9995816349983215,
+        "value": "on",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "temporal",
+        "start": 30,
+        "end": 44,
+        "confidence_entity": 0.9825924634933472,
+        "value": "on the weekend",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Is Le Mans 24 Hours ?",
+    "entities": [
+      {
+        "start": 3,
+        "end": 19,
+        "value": "Le Mans 24 Hours",
+        "entity": "topic"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic",
+        "start": 3,
+        "end": 10,
+        "confidence_entity": 0.7309110760688782,
+        "value": "Le Mans",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "temporal",
+        "start": 11,
+        "end": 19,
+        "confidence_entity": 0.6334940791130066,
+        "value": "24 Hours",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Can you tell me about Made in in in august ?",
+    "entities": [
+      {
+        "start": 22,
+        "end": 29,
+        "value": "Made in",
+        "entity": "topic"
+      },
+      {
+        "start": 33,
+        "end": 42,
+        "value": "in august",
+        "entity": "temporal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic",
+        "start": 22,
+        "end": 26,
+        "confidence_entity": 0.9940136075019836,
+        "value": "Made",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "temporal",
+        "start": 33,
+        "end": 42,
+        "confidence_entity": 0.9999969005584717,
+        "value": "in august",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I need information about Rugby union: talking points from the weekend's action from last decade",
+    "entities": [
+      {
+        "start": 25,
+        "end": 78,
+        "value": "Rugby union: talking points from the weekend's action",
+        "entity": "topic"
+      },
+      {
+        "start": 84,
+        "end": 95,
+        "value": "last decade",
+        "entity": "temporal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic",
+        "start": 25,
+        "end": 52,
+        "confidence_entity": 0.9924640655517578,
+        "value": "Rugby union: talking points",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "topic",
+        "start": 58,
+        "end": 78,
+        "confidence_entity": 0.9990265369415283,
+        "value": "the weekend's action",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "temporal",
+        "start": 84,
+        "end": 95,
+        "confidence_entity": 0.9999990463256836,
+        "value": "last decade",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "May you show me the update from on the weekend on South Africa today ?",
+    "entities": [
+      {
+        "start": 32,
+        "end": 46,
+        "value": "on the weekend",
+        "entity": "temporal"
+      },
+      {
+        "start": 50,
+        "end": 68,
+        "value": "South Africa today",
+        "entity": "topic"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "temporal",
+        "start": 32,
+        "end": 46,
+        "confidence_entity": 0.9999823570251465,
+        "value": "on the weekend",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "topic",
+        "start": 50,
+        "end": 62,
+        "confidence_entity": 0.9996962547302246,
+        "value": "South Africa",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "temporal",
+        "start": 63,
+        "end": 68,
+        "confidence_entity": 0.9999500513076782,
+        "value": "today",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "What about About ?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 16,
+        "value": "About",
+        "entity": "topic"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic",
+        "start": 11,
+        "end": 16,
+        "confidence_entity": 0.999725878238678,
+        "value": "About",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "topic",
+        "start": 17,
+        "end": 18,
+        "confidence_entity": 0.889190673828125,
+        "value": "?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "What about About Guardian Australia ?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 35,
+        "value": "About Guardian Australia",
+        "entity": "topic"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic",
+        "start": 17,
+        "end": 35,
+        "confidence_entity": 0.9997429251670837,
+        "value": "Guardian Australia",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Has Guardian concrete week yesterday?",
+    "entities": [
+      {
+        "start": 4,
+        "end": 26,
+        "value": "Guardian concrete week",
+        "entity": "topic"
+      },
+      {
+        "start": 27,
+        "end": 36,
+        "value": "yesterday",
+        "entity": "temporal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic",
+        "start": 4,
+        "end": 21,
+        "confidence_entity": 0.9998095631599426,
+        "value": "Guardian concrete",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "temporal",
+        "start": 22,
+        "end": 26,
+        "confidence_entity": 0.5022624731063843,
+        "value": "week",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "temporal",
+        "start": 27,
+        "end": 36,
+        "confidence_entity": 0.9997312426567078,
+        "value": "yesterday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "What was the news about Guardian Jakarta week weekend?",
+    "entities": [
+      {
+        "start": 24,
+        "end": 45,
+        "value": "Guardian Jakarta week",
+        "entity": "topic"
+      },
+      {
+        "start": 46,
+        "end": 53,
+        "value": "weekend",
+        "entity": "temporal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic",
+        "start": 24,
+        "end": 40,
+        "confidence_entity": 0.9999366998672485,
+        "value": "Guardian Jakarta",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "temporal",
+        "start": 41,
+        "end": 45,
+        "confidence_entity": 0.7811881899833679,
+        "value": "week",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "temporal",
+        "start": 46,
+        "end": 53,
+        "confidence_entity": 0.999799907207489,
+        "value": "weekend",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "What about Mark Kermode's film of the week yesterday ?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 42,
+        "value": "Mark Kermode's film of the week",
+        "entity": "topic"
+      },
+      {
+        "start": 43,
+        "end": 52,
+        "value": "yesterday",
+        "entity": "temporal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic",
+        "start": 11,
+        "end": 52,
+        "confidence_entity": 0.7102290987968445,
+        "value": "Mark Kermode's film of the week yesterday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Is North-west weekend ?",
+    "entities": [
+      {
+        "start": 3,
+        "end": 21,
+        "value": "North-west weekend",
+        "entity": "topic"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic",
+        "start": 3,
+        "end": 13,
+        "confidence_entity": 0.9998726844787598,
+        "value": "North-west",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "temporal",
+        "start": 14,
+        "end": 21,
+        "confidence_entity": 0.9998390674591064,
+        "value": "weekend",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Has Philip French's film of the week weekend?",
+    "entities": [
+      {
+        "start": 4,
+        "end": 36,
+        "value": "Philip French's film of the week",
+        "entity": "topic"
+      },
+      {
+        "start": 37,
+        "end": 44,
+        "value": "weekend",
+        "entity": "temporal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic",
+        "start": 4,
+        "end": 44,
+        "confidence_entity": 0.5921792984008789,
+        "value": "Philip French's film of the week weekend",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Can you recover information about [Say When [US title: Laggies]](topic) that appeared in june ?",
+    "entities": [
+      {
+        "start": 86,
+        "end": 93,
+        "value": "in june",
+        "entity": "temporal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic",
+        "start": 34,
+        "end": 71,
+        "confidence_entity": 0.9993671774864197,
+        "value": "[Say When [US title: Laggies]](topic)",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "temporal",
+        "start": 86,
+        "end": 93,
+        "confidence_entity": 0.9999980926513672,
+        "value": "in june",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "What about Shakespeare's plays – as you like them ?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 49,
+        "value": "Shakespeare's plays – as you like them",
+        "entity": "topic"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic",
+        "start": 11,
+        "end": 51,
+        "confidence_entity": 0.8668761849403381,
+        "value": "Shakespeare's plays – as you like them ?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "What was the news about The future of work yesterday?",
+    "entities": [
+      {
+        "start": 24,
+        "end": 42,
+        "value": "The future of work",
+        "entity": "topic"
+      },
+      {
+        "start": 43,
+        "end": 52,
+        "value": "yesterday",
+        "entity": "temporal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic",
+        "start": 24,
+        "end": 42,
+        "confidence_entity": 0.984874427318573,
+        "value": "The future of work",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "temporal",
+        "start": 43,
+        "end": 53,
+        "confidence_entity": 0.805676281452179,
+        "value": "yesterday?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Can you give me news from overall about USA Today ?",
+    "entities": [
+      {
+        "start": 26,
+        "end": 33,
+        "value": "overall",
+        "entity": "temporal"
+      },
+      {
+        "start": 40,
+        "end": 49,
+        "value": "USA Today",
+        "entity": "topic"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "temporal",
+        "start": 26,
+        "end": 33,
+        "confidence_entity": 0.9999576807022095,
+        "value": "overall",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "topic",
+        "start": 40,
+        "end": 43,
+        "confidence_entity": 0.9996824264526367,
+        "value": "USA",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "temporal",
+        "start": 44,
+        "end": 49,
+        "confidence_entity": 0.9979655742645264,
+        "value": "Today",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Can you give me the information from 3 days ago about A digital world: what impact does the technology sector have on children? ?",
+    "entities": [
+      {
+        "start": 37,
+        "end": 47,
+        "value": "3 days ago",
+        "entity": "temporal"
+      },
+      {
+        "start": 54,
+        "end": 127,
+        "value": "A digital world: what impact does the technology sector have on children?",
+        "entity": "topic"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "temporal",
+        "start": 37,
+        "end": 47,
+        "confidence_entity": 0.9999983310699463,
+        "value": "3 days ago",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "topic",
+        "start": 54,
+        "end": 114,
+        "confidence_entity": 0.9719091057777405,
+        "value": "A digital world: what impact does the technology sector have",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "topic",
+        "start": 118,
+        "end": 127,
+        "confidence_entity": 0.5286740064620972,
+        "value": "children?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Has About Last Night yesterday?",
+    "entities": [
+      {
+        "start": 4,
+        "end": 20,
+        "value": "About Last Night",
+        "entity": "topic"
+      },
+      {
+        "start": 21,
+        "end": 30,
+        "value": "yesterday",
+        "entity": "temporal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic",
+        "start": 4,
+        "end": 9,
+        "confidence_entity": 0.8582973480224609,
+        "value": "About",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "temporal",
+        "start": 10,
+        "end": 30,
+        "confidence_entity": 0.9787447452545166,
+        "value": "Last Night yesterday",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Was In the news, Books increasing 6 years ago?",
+    "entities": [
+      {
+        "start": 4,
+        "end": 22,
+        "value": "In the news, Books",
+        "entity": "topic"
+      },
+      {
+        "start": 34,
+        "end": 45,
+        "value": "6 years ago",
+        "entity": "temporal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic",
+        "start": 15,
+        "end": 22,
+        "confidence_entity": 0.9999128580093384,
+        "value": ", Books",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "temporal",
+        "start": 34,
+        "end": 45,
+        "confidence_entity": 0.999995231628418,
+        "value": "6 years ago",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "How did the Information power evolve in august?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 29,
+        "value": "Information power",
+        "entity": "topic"
+      },
+      {
+        "start": 37,
+        "end": 46,
+        "value": "in august",
+        "entity": "temporal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic",
+        "start": 24,
+        "end": 29,
+        "confidence_entity": 0.9999877214431763,
+        "value": "power",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "temporal",
+        "start": 37,
+        "end": 46,
+        "confidence_entity": 0.9999986886978149,
+        "value": "in august",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Can you give me news from day before yesterday about One million tiny plays about Britain ?",
+    "entities": [
+      {
+        "start": 26,
+        "end": 46,
+        "value": "day before yesterday",
+        "entity": "temporal"
+      },
+      {
+        "start": 53,
+        "end": 89,
+        "value": "One million tiny plays about Britain",
+        "entity": "topic"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "temporal",
+        "start": 26,
+        "end": 46,
+        "confidence_entity": 0.9999988079071045,
+        "value": "day before yesterday",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "topic",
+        "start": 53,
+        "end": 75,
+        "confidence_entity": 0.9999368190765381,
+        "value": "One million tiny plays",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "topic",
+        "start": 82,
+        "end": 89,
+        "confidence_entity": 0.9997321963310242,
+        "value": "Britain",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Is Red or Black? ?",
+    "entities": [
+      {
+        "start": 3,
+        "end": 16,
+        "value": "Red or Black?",
+        "entity": "topic"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic",
+        "start": 3,
+        "end": 15,
+        "confidence_entity": 0.9941337704658508,
+        "value": "Red or Black",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Is Society Open Weekend ?",
+    "entities": [
+      {
+        "start": 3,
+        "end": 23,
+        "value": "Society Open Weekend",
+        "entity": "topic"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic",
+        "start": 3,
+        "end": 15,
+        "confidence_entity": 0.9967164397239685,
+        "value": "Society Open",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "temporal",
+        "start": 16,
+        "end": 23,
+        "confidence_entity": 0.9999812841415405,
+        "value": "Weekend",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "What about Stream on earlier this week ?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 20,
+        "value": "Stream on",
+        "entity": "topic"
+      },
+      {
+        "start": 21,
+        "end": 38,
+        "value": "earlier this week",
+        "entity": "temporal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic",
+        "start": 11,
+        "end": 17,
+        "confidence_entity": 0.7933434844017029,
+        "value": "Stream",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "temporal",
+        "start": 18,
+        "end": 20,
+        "confidence_entity": 0.5521093606948853,
+        "value": "on",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "temporal",
+        "start": 21,
+        "end": 38,
+        "confidence_entity": 0.999982476234436,
+        "value": "earlier this week",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "What about The Expendables 3 3 weeks ago ?",
+    "entities": [
+      {
+        "start": 11,
+        "end": 28,
+        "value": "The Expendables 3",
+        "entity": "topic"
+      },
+      {
+        "start": 29,
+        "end": 40,
+        "value": "3 weeks ago",
+        "entity": "temporal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "topic",
+        "start": 11,
+        "end": 26,
+        "confidence_entity": 0.9998621940612793,
+        "value": "The Expendables",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "temporal",
+        "start": 27,
+        "end": 28,
+        "confidence_entity": 0.9997637867927551,
+        "value": "3",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "temporal",
+        "start": 29,
+        "end": 40,
+        "confidence_entity": 0.9999611377716064,
+        "value": "3 weeks ago",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Can you give me news from in february about We Need to Talk About Kevin ?",
+    "entities": [
+      {
+        "start": 26,
+        "end": 37,
+        "value": "in february",
+        "entity": "temporal"
+      },
+      {
+        "start": 44,
+        "end": 71,
+        "value": "We Need to Talk About Kevin",
+        "entity": "topic"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "temporal",
+        "start": 26,
+        "end": 37,
+        "confidence_entity": 0.9999995231628418,
+        "value": "in february",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "topic",
+        "start": 44,
+        "end": 59,
+        "confidence_entity": 0.9998114705085754,
+        "value": "We Need to Talk",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "topic",
+        "start": 66,
+        "end": 71,
+        "confidence_entity": 0.9868952631950378,
+        "value": "Kevin",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

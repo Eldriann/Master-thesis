@@ -1,0 +1,36 @@
+last week
+yesterday
+last __NUM__ days
+weekend
+today
+past __NUM__ days
+day before yesterday
+last month
+last year
+on the weekend
+last couple of days
+last couple of weeks
+__NUM__ hours ago
+__NUM__ days ago
+__NUM__ weeks ago
+__NUM__ months ago
+__NUM__ years ago
+last decade
+earlier today
+earlier this week
+earlier this month
+in january
+in february
+in march
+in april
+in may
+in june
+in july
+in august
+in september
+in october
+in november
+in december
+the other day
+__NUM__ days
+overall

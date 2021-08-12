@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  bot:
+    build: .
+    command: "python src/main.py"
+    env_file: .env
+    environment: 
+      DUCKLING_URL: "http://duckling:8000"
+    volumes: 
+      - ./logs:/app/logs
+  duckling:
+    image: eldriann/duckling
+    ports: 
+      - "8000:8000"
